@@ -1,0 +1,47 @@
+#gallery{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.collage{
+
+    /* define how much padding you want in between your images */
+    padding:10px;
+    text-align: center;
+
+}
+
+.collage img{
+
+	/* ensures padding at the bottom of the image is correct */
+	vertical-align:bottom;
+
+	/* hide the images until the plugin has run. the plugin will reveal the images*/
+	opacity:0;
+
+}
+
+.lazy {
+    display: none;
+}
+
+.navbar.navbar-dark {
+    background-color:#c3c3c3;
+    border-bottom:1px solid #eee;
+    color: #646464;
+}
+
+.navbar.navbar-light {
+    background-color:#f8f8f8;
+    border-bottom:1px solid #e7e7e7;
+    color: #777;
+    opacity: 0.95;
+}
+
+.navbar-nav>li>a{
+	color: #ffae3f
+}
+
+.navbar-brand{
+	color: #646464
+}

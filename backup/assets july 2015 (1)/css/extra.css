@@ -1,0 +1,49 @@
+.books{
+	position: absolute;
+	width: 20%;
+	top: 20%;
+	left: 50px;
+}
+
+
+.brain{
+	position: absolute;
+	bottom: 0;
+	right: -100px;
+	width: 450px;
+}
+
+.rocket{
+	position: absolute;
+	top: 0;
+	left: -10px;
+	width: 30%;
+	-ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Chrome, Safari, Opera */
+    transform: rotate(20deg);
+}
+
+#team{
+    position: relative;
+}
+
+.laptop{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.tablet{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.main-content{
+	overflow-x: hidden;
+}
+
+/*.lazy{
+	max-width: 25%;
+	max-height: 400px;
+}*/
